@@ -1,0 +1,91 @@
+{
+  "newrelic": {
+    "license_key": "",
+    "logging": "info"
+  },
+  "resolver": {
+    "variant": {
+      "types": [
+      ],
+      "kinds": [
+
+      ],
+      "engineFuels": [
+
+      ],
+      "policyStatus": [
+
+      ],
+      "registrationStatus": [
+
+      ],
+      "inspectionStatus": [
+
+      ],
+      "mileageStatus": [
+
+      ],
+      "countries": [
+
+      ],
+      "makes": [
+
+      ]
+    }
+  },
+  "providers": {
+    "uk": {
+      "type": "xml",
+      "url": "https://",
+      "headers": {
+        "Content-Type": "application/xhtml+xml",
+        "User-Agent": "Mozilla/5.0",
+        "Origin": "",
+        "Referer": ""
+      },
+      "xmlParserOptions": {
+        "object": true,
+        "reversible": false,
+        "coerce": true,
+        "sanitize": true,
+        "trim": true,
+        "arrayNotation": false
+      },
+      "mapper": [
+
+      ],
+      "mapperDefaults": [
+
+      ]
+    },
+    "pl": {
+      "type": "web",
+      "example": {
+        "plate": "ABC1234",
+        "vin": "ABC123456789DEF",
+        "url": "https://"
+      },
+      "form": {
+        "url": "https://",
+        "prefix": "",
+        "notFoundMessage": "",
+        "postUrlHost": "",
+        "postUrlRegex": "/regex/g",
+        "headers": {
+          "Content-Type": "",
+          "User-Agent": "",
+          "Origin": "",
+          "Referer": ""
+        },
+        "fields": [
+
+        ]
+      },
+      "parser": {
+        "fields": [
+
+        ]
+      }
+    }
+  }
+}
