@@ -6,6 +6,7 @@
   "dependencies": {
     "assert-plus": "^0.1.5",
     "jstoxml": "^0.2.3",
+    "jwt-simple": "^0.2.0",
     "mime": "^1.2.11",
     "restify": "^2.8.5",
     "winston": "^0.8.3"

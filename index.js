@@ -4,10 +4,12 @@ var app = require('./lib/app');
 var exports = {};
 
 exports.error = {
-  InternalError: require('./lib/error/internalError').InternalError,
-  NotFoundError: require('./lib/error/notFoundError').NotFoundError,
   BadRequestError: require('./lib/error/badRequestError').BadRequestError,
-  ForbiddenError: require('./lib/error/forbiddenError').ForbiddenError
+  ForbiddenError: require('./lib/error/forbiddenError').ForbiddenError,
+  InternalError: require('./lib/error/internalError').InternalError,
+  UnauthorizedError: require('./lib/error/notAuthorizedError').UnauthorizedError,
+  NotFoundError: require('./lib/error/notFoundError').NotFoundError,
+  ServiceUnavailableError: require('./lib/error/serviceUnavailableError').ServiceUnavailableError
 };
 
 exports.runServer = app.runServer;
