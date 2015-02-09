@@ -1,6 +1,6 @@
 {
   "name": "my-restify-api",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "My restify API backend",
   "main": "./index.js",
   "dependencies": {
@@ -44,6 +44,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "my-restify-api@0.5.4",
-  "_from": "my-restify-api@^0.5.4"
+  "_id": "my-restify-api@0.5.5",
+  "_from": "my-restify-api@^0.5.5"
 }
