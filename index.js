@@ -12,6 +12,10 @@ exports.error = {
   ServiceUnavailableError: require('./lib/error/serviceUnavailableError').ServiceUnavailableError
 };
 
+exports.plugin = {
+  oauth: require('./lib/plugin/authorization/oauth').oauth
+};
+
 exports.runServer = app.runServer;
 exports.VERSION = meta.VERSION;
 
