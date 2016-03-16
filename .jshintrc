@@ -32,6 +32,8 @@
   "trailing":   true,
   "undef":      true,
   "unused":     true,
-  "maxlen":     100,
-  "latedef":    true
+  "maxlen":     140,
+  "latedef":    true,
+  "globals": { "JSON": true }
+
 }

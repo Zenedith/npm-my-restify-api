@@ -30,18 +30,11 @@ npm test
 - [assert-plus](https://github.com/mcavage/node-assert-plus): Extra assertions on top of node&#39;s assert module
 - [config](https://github.com/lorenwest/node-config): Configuration control for production node deployments
 - [jstoxml](https://github.com/davidcalhoun/jstoxml): Convert JSON to XML (for RSS, Podcasts, etc.)
+- [jwt-simple](https://github.com/hokaccha/node-jwt-simple): JWT(JSON Web Token) encode and decode module
 - [mime](https://github.com/broofa/node-mime): A comprehensive library for mime-type mapping
-- [newrelic](https://github.com/newrelic/node-newrelic): New Relic agent
-- [restify](https://github.com/mcavage/node-restify): REST framework
-- [vehicle-history](https://github.com/vehicle-history/npm-vehicle-history): Check vehicle history based on vin number.
-- [winston](https://github.com/flatiron/winston): A multi-transport async logging library for Node.js
-
-## Dev Dependencies
-
-- [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
-- [istanbul](https://github.com/gotwarlost/istanbul): Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests
-- [mocha](https://github.com/mochajs/mocha): simple, flexible, fun test framework
-- [rewire](https://github.com/jhnns/rewire): Easy dependency injection for node.js unit testing
+- [restify](https://github.com/restify/node-restify): REST framework
+- [winston](https://github.com/winstonjs/winston): A multi-transport async logging library for Node.js
+- [winston-loggly](https://github.com/indexzero/winston-loggly): A Loggly transport for winston
 
 
 ## Changelog
@@ -52,7 +45,7 @@ npm test
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2015 Zenedith
+Copyright (c) 2015-2016 Zenedith
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

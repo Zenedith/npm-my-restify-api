@@ -1,3 +1,5 @@
+'use strict';
+
 var meta = require('./lib/meta');
 var app = require('./lib/app');
 
