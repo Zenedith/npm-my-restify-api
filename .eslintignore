@@ -1,0 +1,7 @@
+# node_modules ignored by default
+node_modules/
+
+# other ignored directories
+coverage/
+test/
+lib/public/
