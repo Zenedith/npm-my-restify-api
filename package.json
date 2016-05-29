@@ -1,15 +1,15 @@
 {
   "name": "my-restify-api",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "My restify API backend",
   "main": "./index.js",
   "dependencies": {
     "assert-plus": "1.0.0",
-    "config": "1.20.1",
+    "config": "1.20.4",
     "jstoxml": "0.2.3",
     "jwt-simple": "0.5.0",
     "mime": "1.3.4",
-    "restify": "4.0.4",
+    "restify": "4.1.0",
     "winston": "2.2.0",
     "winston-loggly": "1.3.1"
   },
@@ -39,6 +39,6 @@
     "node": ">=5.8.0"
   },
   "readmeFilename": "README.md",
-  "_id": "my-restify-api@0.6.0",
-  "_from": "my-restify-api@^0.6.0"
+  "_id": "my-restify-api@0.6.1",
+  "_from": "my-restify-api@^0.6.1"
 }
