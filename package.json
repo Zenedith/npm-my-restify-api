@@ -1,6 +1,6 @@
 {
   "name": "my-restify-api",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "My restify API backend",
   "main": "./index.js",
   "dependencies": {
@@ -36,9 +36,9 @@
   "license": "MIT",
   "homepage": "https://github.com/Zenedith/npm-my-restify-api",
   "engines": {
-    "node": ">=6.2.0"
+    "node": ">=7.6.0"
   },
   "readmeFilename": "README.md",
-  "_id": "my-restify-api@0.6.3",
-  "_from": "my-restify-api@^0.6.3"
+  "_id": "my-restify-api@0.6.4",
+  "_from": "my-restify-api@^0.6.4"
 }
