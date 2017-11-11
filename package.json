@@ -1,6 +1,6 @@
 {
   "name": "my-restify-api",
-  "version": "0.6.5",
+  "version": "0.6.6",
   "description": "My restify API backend",
   "main": "./index.js",
   "dependencies": {
