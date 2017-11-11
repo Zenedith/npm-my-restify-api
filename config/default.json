@@ -1,0 +1,15 @@
+{
+  "newrelic": {
+    "license_key": "key",
+    "logging": "info"
+  },
+  "loggly": {
+    "level": "info",
+    "subdomain": "domain",
+    "inputToken": "token",
+    "tags": [
+      "NodeJS"
+    ],
+    "json": true
+  }
+}

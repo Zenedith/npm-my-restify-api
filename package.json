@@ -1,23 +1,28 @@
 {
   "name": "my-restify-api",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "My restify API backend",
   "main": "./index.js",
   "dependencies": {
     "assert-plus": "1.0.0",
-    "config": "1.26.2",
-    "jstoxml": "0.2.4",
+    "config": "1.28.1",
+    "jstoxml": "1.1.3",
     "jwt-simple": "0.5.1",
-    "mime": "1.3.6",
-    "restify": "5.1.0",
-    "winston": "2.3.1",
+    "mime": "2.0.3",
+    "restify": "4.3.0",
+    "winston": "2.4.0",
     "winston-loggly": "1.3.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "4.1.2",
+    "istanbul": "0.4.5",
+    "mocha": "4.0.1",
+    "nsp": "3.1.0"
+  },
   "scripts": {
     "prepublish": "npm prune",
-    "test": "echo 'Missing tests' && exit 0",
-    "test-travis": "echo 'Missing tests' && exit 0"
+    "test": "mocha --recursive test",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --recursive test"
   },
   "repository": {
     "type": "git",
@@ -39,6 +44,6 @@
     "node": ">=7.6.0"
   },
   "readmeFilename": "README.md",
-  "_id": "my-restify-api@0.6.4",
-  "_from": "my-restify-api@^0.6.4"
+  "_id": "my-restify-api@0.6.5",
+  "_from": "my-restify-api@^0.6.5"
 }
